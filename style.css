@@ -17,15 +17,14 @@ body {
   /*margin-right: 370px;*/
   /*margin-top: 100px;*/
 
-  border: 1px solid black;
-  
+  /* border: 1px solid black; */
+
 }
 
-.bloc_principal{
-margin-left: 5rem;
-margin-right: 5rem;
-
-  border: 1px solid red;
+.bloc_principal {
+  margin-left: 12rem;
+  margin-right: 12rem;
+  /* border: 1px solid red; */
 }
 
 .bloc_one {
@@ -38,8 +37,7 @@ margin-right: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
- border: 1px solid yellowgreen;
+  /* border: 1px solid yellowgreen; */
 }
 
 .logo {
@@ -74,7 +72,7 @@ margin-right: 5rem;
 }
 
 .bloc_two {
-  /* border: 1px solid orangered;*/
+  /* border: 1px solid orangered; */
 }
 
 .nav_right {
@@ -109,7 +107,9 @@ margin-right: 5rem;
   display: flex;
   justify-content: space-between;
   margin-top: 4rem;
-  border: 1px solid rgb(25, 0, 255);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  /*border: 1px solid rgb(25, 0, 255);*/
 }
 
 .left {
@@ -159,61 +159,70 @@ margin-right: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 5rem;
-  /*border: 1px solid blue;*/
+  margin-left: 8rem;
+  border: 1px solid blue;
 }
 
 .sneak {
   color: hsl(26, 100%, 55%);
   font-size: 0.8rem;
   text-transform: uppercase;
+  /* margin-top: 0px; */
+  /* padding-top: 0px; */
   font-weight: bold;
-  /*border: 1px solid red;*/
+  border: 1px solid red;
 }
 
 .fall {
   color: hsl(0, 0%, 0%);
   font-size: 3rem;
   font-weight: bold;
-  padding-top: 1rem;
-  /*border: 1px solid red;*/
+  padding-top: 0.5rem;
+  border: 1px solid red;
 }
 
 .para {
   color: hsl(0, 1%, 47%);
   line-height: 2rem;
+  padding-top: 2rem;
   /*border: 1px solid red;*/
 }
 
 .montant {
   display: flex;
   align-items: center;
+  padding-top: 2rem;
   /*border: 1px solid rgb(102, 255, 0);*/
 }
 
 .valu {
-  /*border: 1px solid green;*/
+  /* border: 1px solid green; */
 }
 
 .ok1 {
   font-size: 2rem;
   font-weight: bold;
-  /*border: 1px solid red;*/
+  /* border: 1px solid red; */
 }
 
 .ok2 {
   color: hsl(0, 2%, 81%);
   text-decoration: line-through;
-  /* border: 1px solid red;*/
+  margin-top: 5px;
+  /* border: 1px solid red; */
 }
 
 .pourcentage {
   display: flex;
   flex-direction: column;
   margin-left: 1rem;
-  height: 100%;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: blanchedalmond;
+  height: 30%;
   font-weight: bolder;
-  /* border: 1px solid red;*/
+  border-radius: 5px;
+  border: 1px solid red;
 }
 
 .yes1 {
