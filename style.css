@@ -297,30 +297,47 @@ body {
 
   .bloc_one{
     align-items: center;
-    margin-left: 15rem;
-    border: 1px solid salmon;
+    margin-left: 13rem;
+    /* border: 1px solid salmon; */
   }
 
 .burger{
   display: flex;
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
 }
 
 .logo{
   margin-left: 1rem;
-  border: 1px solid rgb(55, 0, 255);
+  /* border: 1px solid rgb(55, 0, 255); */
 }
 
 
   .bloc_two{
     /* justify-content: space-around; */
-    padding-right: 0px;
+    margin-right: 10rem;
     /* margin-right: 15rem; */
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
   }
 
+  .nav_right {
+    /* display: flex; */
+    align-items: center;
+    margin-left: 3rem;
+    /*border: 1px solid maroon;*/
+  }
 
-
-
+  .cart {
+    margin-right: 2rem;
+    /*border: 1px solid blue;*/
+  }
+  
+  .avatar {
+    /* display: flex; */
+    height: 25px;
+    width: 25px;
+    /* border-radius: 25px; */
+    /*border: 1px solid blue;*/
+  }
+  
 
 }
